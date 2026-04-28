@@ -3,3 +3,11 @@
 	其中index文件展示的是网站的首页。<br/>
 	Conduit页面展示的是19赛季新角色-导线管。<br/>
 	Winter Express页面展示的是2024年的冬季活动。<br/>
+<br/>
+<br/>
+<br/>
+此项目采用：<br/>
+Wampserver3.3.7 64位<br/>
+Apache：2.4.61.2<br/>
+MySQL：9.1.0<br/>
+PHP：8.3.14<br/>
