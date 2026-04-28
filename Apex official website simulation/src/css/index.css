@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #000000;
+	position: fixed;
+	z-index: 10;
+}
+	#headlogo{
+		float: left;
+		position: relative;
+		left: 30px;
+		top: 10px;
+	}
+
+	.header li{
+		line-height: 60px;
+		font-size: 20px;
+		list-style: none;
+		display:inline-block;
+		position: relative;
+		left: 100px;
+		margin-left: 50px;
+	}
+	a{
+		color: #FFFFFF;
+	}
+		a:link,a:visited{
+			text-decoration: none;
+		}
+		a:hover{
+			color:#DA292A;
+		}
+	.sign_in{
+		float: right;
+		position: relative;
+		right: 30px;
+		top: 10px;
+		font-size: 20px;
+		border-style: solid;
+		padding: 3px 6px;
+		border-radius: 10px;
+	}
+
+
+
+
+.main{
+	width: 100%;
+	height: 2560px;
+	background: url("../images/背景1.jpg") no-repeat;
+}
+.box1{
+	width: 100%;
+	height: 800px;
+	background: url("../images/Apex游戏图标.png"),url("../images/诸王峡谷俯瞰图.jpg") no-repeat;
+	background-size: cover;
+}
+.logo{
+	width: 350px;
+	height: 350px;
+	margin: 0px auto;
+	padding-top: 300px;
+}
+.legends{
+	width: 1200px;
+	margin: 0 auto;
+}
+.box2{
+	width: 94%;
+	height: 582px;
+	background: url("../images/小队.png") no-repeat;
+}
+.introduction{
+	color: #FFFFFF;
+	width: 400px;
+	float: right;
+	position: relative;
+	right: 30px;
+	text-align: left; 
+	margin: 150px auto;
+}
+.introduction h1{
+	line-height: 200px;
+}
+.boundary{
+	width:72.5%;
+	margin: 20px auto;
+}
+.description{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 35px;
+}
+.more-info {
+	width: 90%;
+	position: absolute;
+	left: 100px;
+
+}
+.more-info div{
+	width:348px;
+	height: 196px;
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+.more-info img{
+	width:348px;
+	height: 196px;
+}
+.more-info div:hover{
+	border: 2px solid #FFFFFF;
+	box-shadow: 5px 5px 10px 2px #999;
+}

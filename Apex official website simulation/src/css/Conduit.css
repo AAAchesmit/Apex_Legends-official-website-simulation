@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #000000;
+	position: fixed;
+	z-index: 10;
+}
+	#headlogo{
+		float: left;
+		position: relative;
+		left: 30px;
+		top: 10px;
+	}
+	.header li{
+		line-height: 60px;
+		font-size: 20px;
+		list-style: none;
+		display:inline-block;
+		position: relative;
+		left: 100px;
+		margin-left: 50px;
+	}
+	a{
+		color: #FFFFFF;
+	}
+		a:link,a:visited{
+			text-decoration: none;
+		}
+		a:hover{
+			color:#DA292A;
+		}
+		.sign_in{
+			float: right;
+			position: relative;
+			right: 30px;
+			top: 10px;
+			font-size: 20px;
+			border-style: solid;
+			padding: 3px 6px;
+			border-radius: 10px;
+		}
+		.select{
+			background-color: white;
+			color: black;
+			padding: 5px;
+			border-radius: 10px;
+		}
+
+
+
+.main{
+	width: 100%;
+	background: #FFF6ED;
+}
+.main p{
+	font-size: 20px;
+}
+.banner{
+	width: 100%;
+	height:600px;
+	background: url("../images/导线管挥手banner.jpg") no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.introduction{
+	width: 50%;
+	position: absolute;
+	left:50%;
+	top:100px;
+	font-size: 50px;
+	color:#FFFFFF;
+	text-shadow: 10px 10px 10px black;
+}
+.introduction h3{
+	line-height: 200px;
+}
+
+.description{
+	width: 100%;
+	height: 1000px;
+	background: url("../images/导线管个人介绍背景.jpg") no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.story{
+	width: 50%;
+	right: 0;
+	margin-top: 130px;
+	height: 500px;
+	line-height: 30px;
+	position: absolute;
+}
+.details{
+	width: 50%;
+	right: 0;
+	position: absolute;
+	margin-top: 600px;
+	font-size: 20px;
+	
+}
+
+.ability{
+	width: 100%;
+	height: 600px;
+	background: url("../images/背景2.jpg") no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+}
+.left{
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+.right{
+	width: 70%;
+	float: right;
+}
+.a1,.a2,.a3{
+	width: 225.27px;
+	margin-top: 50px;
+	height: 126.45px;
+	display: inline-block;
+}
+.p1,.p2,.p3{
+	width: 70%;
+	margin-top: 50px;
+	height: 126.45px;
+	display: inline-block;
+	vertical-align: top;
+	visibility: hidden;
+}
+.right p{
+	color: #FFFFFF;
+}
+.a1:hover ~ .p1{
+	visibility: visible;
+	animation-name: appear;
+	animation-duration: 1s;
+}
+.a2:hover ~ .p2{
+	visibility: visible;
+	animation-name: appear;
+	animation-duration: 1s;
+}
+.a3:hover ~ .p3{
+	visibility: visible;
+	animation-name: appear;
+	animation-duration: 1s;
+}
+@keyframes appear{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+.example{
+	width: 100%;
+	height: 600px;
+	background: url("../images/1.jpg") no-repeat;
+}
+.v1{
+	width: 70%;
+	height: 575px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+.v1 video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

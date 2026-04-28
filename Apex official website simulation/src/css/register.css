@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: auto;
+	background: url("../images/背景3.jpg") repeat fixed;
+	background-size: cover;
+}
+.main{
+	width: 100%;
+	height: inherit;
+}
+	#logo{
+		width: 70px;
+		height: auto;
+		left: 47%;
+		position: absolute;
+		z-index: 10;
+	}
+	.register_form{
+		padding-top: 130px;
+		margin:0 auto;
+		width: 400px;
+		height: 410px;
+		z-index: 20;
+	}
+	input{
+		display: block;
+		width: 400px;
+		height: 34px;
+		margin: 10px auto;
+		font-size: 20px;
+	}
+		#button{
+			width: 400px;
+			height: 40px;
+			color: white;
+			background-color:black;
+			border-radius: 20px;
+		}
+		.title{
+			font-size: 40px;
+			bottom: 50px;
+		}
+	span{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	a{
+		color:#0070C9;
+	}
+		a:link,a:visited{
+			text-decoration: none;
+		}
+		a:hover{
+			color:#DA292A;
+		}
