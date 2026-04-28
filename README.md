@@ -1,5 +1,5 @@
 # Apex_Legends-official-website-simulation
-这个作品灵感来自《Apex Lengends》游戏官网，由于该网站没有简体中文页面并且其他语言页面不完整，突发奇想借鉴一些元素并为其制作页面展示。
-	其中index文件展示的是网站的首页。
-	Conduit页面展示的是19赛季新角色-导线管。
-	Winter Express页面展示的是2024年的冬季活动。
+这个作品灵感来自《Apex Lengends》游戏官网，由于该网站没有简体中文页面并且其他语言页面不完整，突发奇想借鉴一些元素并为其制作页面展示。<br/>
+	其中index文件展示的是网站的首页。<br/>
+	Conduit页面展示的是19赛季新角色-导线管。<br/>
+	Winter Express页面展示的是2024年的冬季活动。<br/>
